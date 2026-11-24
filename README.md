@@ -64,5 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-eSIMAdvice is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://esimadvice.com
+eSIMAdvice provides a free, no‑key REST API that gives developers access to live travel eSIM plan data. The service aggregates over 200,000 eSIM plans from 97 providers across 215 countries and territories, updating the catalog weekly. It offers JSON and CSV endpoints, a freshness schedule, and an MCP server for AI agents, all under a CC BY 4.0 license with required attribution.
+
+**Areas:** Travel · eSIM · API · Data · Free
+
+## eSIMAdvice on APIs.io
+
+Everything profiled for eSIMAdvice is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/esimadvice-com/](https://apis.io/providers/esimadvice-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [eSIMAdvice Countries API](https://apis.io/apis/esimadvice-com/esimadvice-com-countries-api/) — The Countries API from eSIMAdvice — 2 operation(s) for countries.
+- [eSIMAdvice Freshness.json API](https://apis.io/apis/esimadvice-com/esimadvice-com-freshness-json-api/) — The Freshness.json API from eSIMAdvice — 1 operation(s) for freshness.json.
+- [eSIMAdvice MCP API](https://apis.io/apis/esimadvice-com/esimadvice-com-mcp-api/) — The Mcp API from eSIMAdvice — 1 operation(s) for mcp.
+- [eSIMAdvice Price Index.csv API](https://apis.io/apis/esimadvice-com/esimadvice-com-price-index-csv-api/) — The Price Index.csv API from eSIMAdvice — 1 operation(s) for price index.csv.
+- [eSIMAdvice Price Index.json API](https://apis.io/apis/esimadvice-com/esimadvice-com-price-index-json-api/) — The Price Index.json API from eSIMAdvice — 1 operation(s) for price index.json.
+- [eSIMAdvice Providers API](https://apis.io/apis/esimadvice-com/esimadvice-com-providers-api/) — The Providers API from eSIMAdvice — 2 operation(s) for providers.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [eSIMAdvice Agentic Access](https://apis.io/agentic-access/esimadvice-com/esimadvice-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [eSIMAdvice API Rules](https://apis.io/rules/esimadvice-com/esimadvice-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [eSIMAdvice Domain Security](https://apis.io/security/esimadvice-com/esimadvice-com-domain-security/)
+- [eSIMAdvice Vulnerability Disclosure](https://apis.io/security/esimadvice-com/esimadvice-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://esimadvice.com)
+- [Documentation](https://esimadvice.com/developers)
+- [Blog](https://esimadvice.com/blog)
+- [Terms of service](https://esimadvice.com/terms)
+- [Privacy policy](https://esimadvice.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 34.2** — thin · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 41.8 |
+| Contract governance | 65.5 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 17.0 |
+
+**Agent readiness 31.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/esimadvice-com/](https://apis.io/providers/esimadvice-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for eSIMAdvice: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/esimadvice-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
